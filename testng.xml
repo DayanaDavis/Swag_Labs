@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="SwagLabs">
+    <listeners>
+        <listener class-name="com.swagLabs.extentReport.ExtentReport"></listener>
+    </listeners>
+    <test name="regression test">
+        <parameter name="browser" value="chrome"></parameter>
+        <classes>
+            <class name="com.swagLabs.testscripts.LoginPageTest"/>
+            <class name="com.swagLabs.testscripts.CartPageTest"/>
+        </classes>
+    </test>
+</suite>

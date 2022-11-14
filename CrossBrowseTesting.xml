@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Swag_Lab">
+    <test name="Functional Test1">
+        <parameter name="browser" value="chrome"></parameter>
+        <classes>
+            <class name="com.swagLabs.testscripts.LoginPageTest"/>
+        </classes>
+    </test>
+    <test name="Functional Test2">
+        <parameter name="browser" value="edge"></parameter>
+        <classes>
+            <class name="com.swagLabs.testscripts.CartPageTest"/>
+        </classes>
+    </test>
+</suite>
